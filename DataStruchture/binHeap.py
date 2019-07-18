@@ -90,5 +90,4 @@ class Bheap:
         for i in range(1, (self.N+1)):
             print("[%2d %s]" % (self.a[i][0], self.a[i][1]), end=" ")
 
-        print("\n")
-        print("heap size : ", self.N)
+        print("\nheap size : ", self.N)
